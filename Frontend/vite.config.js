@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'https://video-streaming-platform-backend.onrender.com',
+        target:"https://video-streaming-platform-backend.onrender.com",
         changeOrigin:true
       }
     }
